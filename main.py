@@ -3,6 +3,9 @@
 Writes a single line to /output/entry.txt: a roast of the washing machine,
 which celebrates finishing a load with a 40-second victory song, like it
 composed a symphony for one sock.
+
+Deterministic: the same line on every run, no randomness, no network,
+no input beyond the constant below.
 """
 
 import os
